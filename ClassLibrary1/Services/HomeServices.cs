@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace BLL.AutoMapper
 {
-    internal class Class1
+    public class HomeServices:IHomeServices
     {
+        public HomeServices() { }
+        public void Get(int ID)
+        {
+            return;
+        }
     }
 }

@@ -10,4 +10,8 @@
     <Folder Include="Configuration\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\COMMON\COMMON.csproj" />
+  </ItemGroup>
+
 </Project>

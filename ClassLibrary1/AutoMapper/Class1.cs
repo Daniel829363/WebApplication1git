@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.AutoMapper
 {
-    internal class Class1
+    internal class IHo
     {
     }
 }

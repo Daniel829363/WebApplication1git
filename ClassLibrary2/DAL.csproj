@@ -7,13 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Dependencyinjection\" />
-    <Folder Include="Entities\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Seeds\" />
-    <Folder Include="UnitOfWork\" />
-    <Folder Include="DatebaseContext\" />
     <Folder Include="Configuration\" />
   </ItemGroup>
 

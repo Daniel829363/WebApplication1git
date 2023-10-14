@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
-    <Folder Include="Enum\" />
     <Folder Include="AppConfiguration\" />
   </ItemGroup>
 

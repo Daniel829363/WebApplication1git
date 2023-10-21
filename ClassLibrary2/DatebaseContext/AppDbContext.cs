@@ -15,7 +15,7 @@ namespace DAL.DatabaseContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-6RRLLP7;Database=Project;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-6RRLLP7;Initial Catalog=Project;User ID=sa;Password=123;TrustServerCertificate=true");
 
             base.OnConfiguring(optionsBuilder);
         }

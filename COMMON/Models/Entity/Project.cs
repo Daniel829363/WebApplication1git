@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL.AutoMapper
+namespace COMMON.Models.Entity
 {
-    internal class IHo
+    public class Project
     {
     }
 }

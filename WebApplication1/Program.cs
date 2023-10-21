@@ -1,10 +1,13 @@
-using BLL.AutoMapper;
+using BLL.Services;
+using BLL.Services.interfaces;
+using DAL.DatabaseContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddTransient<IHomeServices,HomeServices>();
+builder.Services.AddDbContext<AppDbContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

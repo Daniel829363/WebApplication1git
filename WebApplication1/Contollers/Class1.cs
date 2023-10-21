@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL.AutoMapper
+namespace WebApplication1.Contollers
 {
     internal class Class1
     {

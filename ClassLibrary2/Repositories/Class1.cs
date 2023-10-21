@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL.AutoMapper
+namespace DAL.Repositories
 {
-    internal class Class1
+    internal class AppDbContext
     {
     }
 }

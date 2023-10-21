@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BLL.AutoMapper
+namespace COMMON.AppConfiguration
 {
     internal class Class1
     {

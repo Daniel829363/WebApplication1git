@@ -11,8 +11,8 @@ namespace DAL.DatabaseContext
     public class AppDbContext:DbContext
     {
         public AppDbContext() { }
-        DbSet<Project> Projects { get; set; }
-
+        public DbSet<Project> Projects { get; set; }
+        public DbSet<Employee> Employees { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Data Source=DESKTOP-6RRLLP7;Initial Catalog=Project;User ID=sa;Password=123;TrustServerCertificate=true");

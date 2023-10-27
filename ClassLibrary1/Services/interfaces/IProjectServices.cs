@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Seeds
+namespace BLL.Services.interfaces
 {
-    internal class AppDbContext
+    public interface IProjectServices
     {
     }
 }

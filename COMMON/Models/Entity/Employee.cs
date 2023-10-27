@@ -14,6 +14,6 @@ namespace COMMON.Models.Entity
         public string MiddleName { get; set; }
         public string Email { get; set; }
 
-
+        public List<Employee> Employees { get; set; }
     }
 }
